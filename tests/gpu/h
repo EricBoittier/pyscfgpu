@@ -1,0 +1,500 @@
+   22  cs
+   23  rm -rf mdcm_fast.egg-info/
+   24  cs
+   25  cp mdcm_fast/* .
+   26  cs
+   27  rm -rf mdcm_fast/
+   28  cs
+   29  cd ..
+   30  cs
+   31  cd ..
+   32  cs
+   33  git add -A
+   34  git commit -m "added mdcm fast directory"
+   35  ls
+   36  cs
+   37  source .bashrc
+   38  cs
+   39  ls
+   40  squeue
+   41  cs
+   42  ls
+   43  ps -fa
+   44  ssh gpu25
+   45  nvidia-smi
+   46  htop
+   47  cs
+   48  htop
+   49  nvidia-smi
+   50  nvidia-smi
+   51  nvidia-smi
+   52  cs
+   53  source .bashrc
+   54  cs
+   55  nvidia-smi
+   56  htop
+   57  nvidia-smi
+   58  cs
+   59  htop
+   60  nvidia-smi
+   61  htop
+   62  cs
+   63  cs
+   64  htop
+   65  cs
+   66  htop
+   67  cs
+   68  cs
+   69  ps -fa
+   70  kill 84024
+   71  ps -fa
+   72  pkill 84024
+   73  ps -fa
+   74  kill 83982
+   75  cs
+   76  htop
+   77  cs
+   78  cs
+   79  htop
+   80  cs
+   81  cd pycharmm_test
+   82  cs
+   83  conda activate jaxphyscharmm
+   84  history
+   85  cs
+   86  cd example_training/
+   87  cs
+   88  cs
+   89  vi test-dcm.py
+   90  python test-dcm.py 
+   91  vi test-dcm.py
+   92  cs
+   93  python test-dcm.py 
+   94  ps -fa
+   95  python test-dcm.py 
+   96  ls
+   97  ps -fa
+   98  cs
+   99  source .bashrc
+  100  ps -fa
+  101  cs
+  102  source .bashrc
+  103  cs
+  104  cs
+  105  source .bashrc
+  106  cs
+  107  history
+  108  ssh -CNL localhost:8889:localhost:8889 boittier@gpu25
+  109  cd gpu25
+  110  ssh gpu25
+  111  Q
+  112  htop
+  113  nvidia-smi
+  114  nvidia-smi
+  115  nvidia-smi
+  116  htop
+  117  kill 93741
+  118  cs
+  119  source .bashrc
+  120  cs
+  121  cd pycharmm_test
+  122  ls
+  123  cs
+  124  cs
+  125  cd example_training/q
+  126  cd example_training/
+  127  cs
+  128  cat 23:10:18-memory-1.prof
+  129  cs
+  130  cs
+  131  ssh gpu25
+  132  history
+  133   conda activate jaxphyscharmm
+  134  source .bashrc
+  135   conda activate jaxphyscharmm
+  136  cd pycharmm_test
+  137  cd example_training/
+  138  cs
+  139  python test-dcm.py
+  140  git pull
+  141  git stash
+  142  git pull
+  143  python test-dcm.py
+  144  vi test-dcm.py
+  145  cs
+  146  git pull
+  147  python test-dcm.py
+  148  cs
+  149  ps -fa
+  150  source .bashrc
+  151  cs
+  152  cd pycharmm_test
+  153  cs
+  154  git log
+  155  cs
+  156  git add -A
+  157  git commit -m "trained DCM model with and without dipoles"
+  158  cs
+  159  cd notebooks/
+  160  cs
+  161  cd development/
+  162  cs
+  163  cd ..
+  164  cs
+  165  cd old/
+  166  cs
+  167  cd ..
+  168  cs
+  169  cd data/
+  170  cs
+  171  cs
+  172  git add *
+  173  git status
+  174  \cs
+  175  ls
+  176  git push
+  177  cs
+  178  ls
+  179  source .bashrc
+  180  htop
+  181  nvidia-smi
+  182  cs
+  183  cd pycharmm_test
+  184  cs
+  185  cd example_training/
+  186  cs
+  187  cd ..
+  188  cs
+  189  cd ckpts/
+  190  cs
+  191  cd dichloromethane-a31d3007-5046-4ae0-a16d-8e45aa2eafb1
+  192  cs
+  193  cd ..
+  194  cs
+  195  cd ..
+  196  cs
+  197  cd
+  198  cs
+  199  conda activate jaxphyscharmm
+  200  jupyter lab --no-browser --port=8889
+  201  cs
+  202  jupyter lab --no-browser --port=8889
+  203  htop
+  204  cs
+  205  source .bashrc
+  206  cs
+  207  nvidia-smi
+  208  htop
+  209  nvidia-smi
+  210  cs
+  211  htop
+  212  cs
+  213  cs
+  214  cs
+  215  vi pycharmm_test/physnetjax/data/batches.py 
+  216  cs
+  217  vi pycharmm_test/physnetjax/data/batches.py 
+  218  cs
+  219  cd pycharmm_test
+  220  cs
+  221  cd ckpts/
+  222  cs
+  223  ssh gpu25
+  224  cs
+  225  ssh -CNL localhost:8889:localhost:8889 boittier@gpu25
+  226  cs
+  227  source .bashrc
+  228  cs
+  229  cd ff_energy/
+  230  cs
+  231  cd ..
+  232  cs
+  233  cs
+  234  cd ff_energy/
+  235  cs
+  236  cd ..
+  237  cs
+  238  cd FF-Energy/
+  239  cs
+  240  cd pickles/
+  241  cs
+  242  cd structures/
+  243  cs
+  244  cd ../..
+  245  cs
+  246  cd ..
+  247  cs
+  248  cd pycharmm_test
+  249  cs
+  250  cd ..
+  251  cs
+  252  cd /group-data/chaton/eric/
+  253  cs
+  254  cs
+  255  cs
+  256  cs
+  257  source .bashrc
+  258  cs
+  259  cd pycharmm_test/ckpts/
+  260  cs
+  261  cd dichloromethane-a31d3007-5046-4ae0-a16d-8e45aa2eafb1/
+  262  cs
+  263  cd
+  264  cs
+  265  vi pycharmm_test/physnetjax/analysis/analysis.py 
+  266  vi pycharmm_test/physnetjax/analysis/analysis.py 
+  267  ssh gpu25
+  268  cs
+  269  Q
+  270  squeue
+  271  cs
+  272  cs
+  273  cs
+  274  cd
+  275  cs
+  276  cs
+  277  git clone https://github.com/EricBoittier/FF-Fit.git
+  278  nvidia-smi
+  279  exit
+  280  ls
+  281  nvidia-smi
+  282  exit
+  283  nvidia-smi
+  284  cs
+  285  exit
+  286  cs
+  287  ps -fa
+  288  exit
+  289  ls
+  290  ls 
+  291  ps -fa
+  292  source .bashrc
+  293  jupyter server list
+  294  ps -fa > tmp
+  295  vi tmp
+  296  /pchem-data/meuwly/boittier/home/miniforge3/bin/python3.12 /pchem-data/meuwly/boittier/home/miniforge3/bin/jupyter server list
+  297  cs
+  298  nvidia-smi
+  299  nvidia-smi
+  300  nvidia-smi
+  301  nvidia-smi
+  302  nvidia-smi
+  303  nvidia-smi
+  304  nvidia-smi
+  305  nvidia-smi
+  306  nvidia-smi
+  307  nvidia-smi
+  308  nvidia-smi
+  309  nvidia-smi
+  310  nvidia-smi
+  311  htop
+  312  exit
+  313  cs
+  314  source .bashrc
+  315  cs
+  316  jupyter server list
+  317  cs
+  318  ssh gpu25
+  319  ls
+  320  ssh gpu25
+  321  cs
+  322  source .bashrc
+  323  cd pycharmm_test
+  324  cs
+  325  source .venv/bin/activate
+  326  which python
+  327  which jupyter
+  328  cs
+  329  cd example_training/
+  330  cs
+  331  jupyter nbconvert --to script dichloromethane-data.ipynb 
+  332  /pchem-data/meuwly/boittier/home/.local/share/jupyter
+  333  jupyter nbconvert dichloromethane-data.ipynb --to script
+  334  which jupyter
+  335  ls /pchem-data/meuwly/boittier/home/pycharmm_test/.venv/bin/
+  336  cs
+  337  python dichlormethane-example.py 
+  338  python dichlormethane-example.py 
+  339  vi dichlormethane-example.py 
+  340  cs
+  341  python dichlormethane-example.py 
+  342  python dichlormethane-example.py 
+  343  python dichlormethane-example.py 
+  344  python dichlormethane-example.py 
+  345  python dichlormethane-example.py 
+  346  python dichlormethane-example.py 
+  347  python dichlormethane-example.py 
+  348  python dichlormethane-example.py 
+  349  python dichlormethane-example.py 
+  350  python dichlormethane-example.py 
+  351  python dichlormethane-example.py 
+  352  python dichlormethane-example.py 
+  353  python dichlormethane-example.py 
+  354  python dichlormethane-example.py 
+  355  python dichlormethane-example.py 
+  356  cs
+  357  python dichlormethane-example.py 
+  358  python dichlormethane-example.py 
+  359  python dichlormethane-example.py 
+  360  ssh gpu25
+  361  nvidia-smi
+  362  htop
+  363  cs
+  364  source .bashrc
+  365  cs
+  366  cd pycharmm_test
+  367  cs
+  368  vi pyproject.toml 
+  369  uv sync
+  370  vi pyproject.toml 
+  371  cd ..
+  372  cs
+  373  git clone https://github.com/ChemAI-Lab/molpipx.git
+  374  cd pycharmm_test
+  375  cs
+  376  source .bashrc
+  377  cs
+  378  cd
+  379  cs
+  380  source .bashrc
+  381  cd pycharmm_test
+  382  cs
+  383  git add example_training/*
+  384  cd example_training/
+  385  cs
+  386  git add dichloromethane-data.ipynb dichlormethane-example.py
+  387  git commit -m "fitting + switch function"
+  388  git push
+  389  git push
+  390  cs
+  391  ssh gpu25
+  392  source .bashrc
+  393  cs
+  394  cd pycharmm_test
+  395  cs
+  396  cd example_training/
+  397  source ../.venv/bin/activate
+  398  module load cudnn
+  399  cs
+  400  python dichlormethane-example.py 
+  401  python dichlormethane-example.py 
+  402  python dichlormethane-example.py 
+  403  ls
+  404  source .bashrc
+  405  cs
+  406  cd pyscfgpu/
+  407  cs
+  408  echo "# pyscfgpu" >> README.md
+  409  git init
+  410  git add README.md
+  411  git commit -m "first commit"
+  412  git branch -M main
+  413  git remote add origin https://github.com/EricBoittier/pyscfgpu.git
+  414  git push -u origin main
+  415  cs
+  416  git add -A
+  417  git commit -m "first helper functions"
+  418  git push
+  419  ls
+  420  git push
+  421  cs
+  422  cs
+  423  git pull
+  424  cs
+  425  cs
+  426  source .bashrc
+  427  ls
+  428  cs
+  429  source .bashrc
+  430  source pycharmm_test/.venv/bin/activate
+  431  which povray
+  432  cs
+  433  cd ..
+  434  cs
+  435  cd 
+  436  cs
+  437  cd pyscfgpu/
+  438  cs
+  439  cd tests/
+  440  cs
+  441  cd povray/
+  442  cs
+  443  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray"
+  444  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  445  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  446  cs
+  447  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  448  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  449  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  450  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  451  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  452  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  453  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-2.pov 
+  454  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-2.pov 
+  455  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-2.pov 
+  456  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  457  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  458  source .bashrc
+  459  cd
+  460  cs
+  461  source pycharmm_test/.venv/bin/activate
+  462  cd pyscfgpu/
+  463  cd tests/ghost-atoms/
+  464  ls
+  465  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" 
+  466  ls
+  467  cd ../povray/
+  468  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  469  "/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray" test-1.pov 
+  470  cd pyscfgpu/tests/povray/
+  471  '/pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray', 'render.ini' 
+  472  /pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray render.ini
+  473  /pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray render.ini
+  474  /pchem-data/meuwly/boittier/home/miniforge3/envs/jaxphyscharmm/bin/povray render.ini
+  475  source .bashrc
+  476  cs
+  477  cd pycharmm_test
+  478  cs
+  479  source pycharmm_test/.venv/bin/activate
+  480  source .venv/bin/activate
+  481  cs
+  482  vi pyproject.toml 
+  483  uv sync
+  484  cs
+  485  cd 
+  486  cs
+  487  cd project-mmml/
+  488  cs
+  489  cd eric-copy/
+  490  cs
+  491  pwd
+  492  pwd
+  493  cs
+  494  cd
+  495  cs
+  496  cd pycharmm_test
+  497  cs
+  498  vi pyproject.toml 
+  499  cs
+  500  uv sync
+  501  source .bashrc
+  502  source pycharmm_test/.venv/bin/activate
+  503  cd
+  504  cs
+  505  cd pyscfgpu/
+  506  cs
+  507  cd tests/
+  508  cs
+  509  cd povray/
+  510  vcsd
+  511  cs
+  512  cd ..
+  513  cs
+  514  cd gpu/
+  515  cs
+  516  jupyter nbconvert densities.ipynb --to script
+  517  deactivate
+  518  conda activate
+  519  jupyter nbconvert densities.ipynb --to script
+  520  history
+  521  history > h
